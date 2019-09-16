@@ -1,7 +1,5 @@
 list = []
 a = int(input("Meddig?\n"))
-#if a <= 1:
-#	print("1 él azért nagyobb számot adj")
 
 sum = 0
 avg = 0.0
