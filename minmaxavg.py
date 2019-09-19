@@ -6,10 +6,9 @@ avg = 0.0
 while len(list) != a:
 	list.append(int(input("Szám:")))
 print()
-
+min = list[0]
+max = list[0]
 for x in range(len(list)):
-	min = list[0]
-	max = list[0]
 	sum += list[x]
 	if list[x] < min:
 		min = list[x]
